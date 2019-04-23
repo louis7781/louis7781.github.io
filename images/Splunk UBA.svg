@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="MKTG_ICN_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#65A637;stroke-width:25;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<title>Splunk User Behavior Analytics (UBA)</title>
+<path class="st0" d="M493,632.5v53.8c0,18.3-14.8,33.2-33.1,33.2c0,0,0,0,0,0H69.1c-18.3,0-33.1-14.8-33.1-33.2l0,0V414.6
+	c0-18.3,14.8-33.1,33.1-33.1H223"/>
+<line class="st0" x1="14" y1="772.5" x2="515" y2="772.5"/>
+<circle class="st0" cx="547" cy="497.5" r="32"/>
+<line class="st0" x1="547" y1="463.5" x2="547" y2="368.5"/>
+<line class="st0" x1="407" y1="322.5" x2="502" y2="322.5"/>
+<path class="st0" d="M505.6,315l33.7-33.7c4.1-4.1,10.8-4.1,15,0L588,315c4.1,4.1,4.1,10.8,0,15l-33.7,33.7c-4.1,4.1-10.8,4.1-15,0
+	L505.6,330C501.4,325.9,501.4,319.1,505.6,315z"/>
+<path class="st0" d="M347.6,288.5h47.8c5.9,0,10.6,4.8,10.6,10.6v47.8c0,5.9-4.8,10.6-10.6,10.6h-47.8c-5.9,0-10.6-4.8-10.6-10.6
+	v-47.8C337,293.3,341.8,288.5,347.6,288.5z"/>
+<polyline class="st0" points="110.1,572.5 184.2,500.9 281.9,590.5 453,415.5 "/>
+</svg>

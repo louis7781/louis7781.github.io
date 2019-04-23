@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>环润</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!--============== ICON FONT FONT-AWESOME=================-->
+
+  <link href="css/font-awesome.css" rel="stylesheet">
+
+  <!--==============MAIN CSS FOR HOSTING PAGE=================-->
+
+  <link href="css/hosting.css" rel="stylesheet" media="all">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!--==============Mordernizr =================-->
+
+  <script src="js/modernizr.js"></script>
+
+  <!--===================FLEX SLIDER=======================-->
+
+  <link rel="stylesheet" href="css/flexslider.css"/>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(window).load(function () {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        useCSS: Modernizr.touch
+      });
+    });
+  </script>
+</head>
+
+<body id="home" data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
+
+<!--==============Logo & Menu Bar=================-->
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><span
+          class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="padding-top: 0"> <img src="images/logo.png" alt="logo" height="80" width="80"></a></div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#home">主页</a></li>
+        <li class="hidden-sm"><a href="#features">产品列表</a></li>
+        <li><a href="#contact">联系我们</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--==============HEADER =================-->
+<div class="jumbotron masthead">
+  <div class="container">
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <div class="slide">
+            <p><img src="images/1.png" alt="server" class="img-slide center-block"></p>
+            <h1>Splunk Enterprise</h1>
+            <h3>从机器数据中汇总、分析和获取企业运营答案的最快方法。</h3>
+          </div>
+        </li>
+        <li>
+          <div class="slide">
+            <p><img src="images/2.png" alt="server" class="img-slide center-block"></p>
+            <h1>Splunk Enterprise Security</h1>
+            <h3>使用分析驱动型 SIEM 解决方案来解决企业信息安全威胁。</h3>
+          </div>
+        </li>
+        <li>
+          <div class="slide">
+            <p><img src="images/3.png" alt="server" class="img-slide center-block"></p>
+            <h1>Splunk IT Service Intelligence(ITSI)</h1>
+            <h3>基于大数据监控和大数据智能分析的解决方案，可让您深度了解 IT 和业务服务，并使您能够使用 AI 人工智能从被动开展 IT 工作转向预测性推动 IT运维。</h3>
+          </div>
+        </li>
+        <li>
+          <div class="slide">
+            <p><img src="images/4.png" alt="server" class="img-slide center-block"></p>
+            <h1>Splunk 用户行为分析</h1>
+            <h3>通过分析用户和实体行为来防范未知威胁。</h3>
+          </div>
+        </li>
+        <li>
+          <div class="slide">
+            <p><img src="images/5.png" alt="server" class="img-slide center-block"></p>
+            <h1>Phantom</h1>
+            <h3>使用 Splunk Enterprise Security 和 Phantom，您可以在几秒钟内执行操作，而不是手动执行时所需的数小时或更长时间。</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--==============Content Area=================-->
+
+<div class="container">
+  <!--============== Main Features ==============-->
+
+  <!--<div class="row mainFeatures" id="features">-->
+    <!--<div class="col-sm-6 col-md-4">-->
+      <!--<div class="img-thumbnail"><img src="images/secure_img.png" width="85" height="88" alt="secure">-->
+        <!--<div class="caption">-->
+          <!--<h4>Secure & Reliable</h4>-->
+          <!--<p>Flathost servers are having high physical security and power redundancy Your data will be secure with-->
+            <!--us.</p>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-sm-6 col-md-4">-->
+      <!--<div class="img-thumbnail"><img src="images/fast_img.png" width="85" height="88" alt="secure">-->
+        <!--<div class="caption">-->
+          <!--<h4>Super Fast</h4>-->
+          <!--<p>With our ultra mordern servers and optical cables, your data will be transfered to end user in-->
+            <!--milliseconds.</p>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-0">-->
+      <!--<div class="img-thumbnail"><img src="images/support_img.png" width="85" height="88" alt="secure">-->
+        <!--<div class="caption">-->
+          <!--<h4>Customer Support</h4>-->
+          <!--<p>We have a dedicated team of support for sales and support to help you in anytime. You can also chat with-->
+            <!--us.</p>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <!--============== Other Features ==============-->
+
+  <div class="row PageHead" id="features">
+    <div class="col-md-12">
+      <h1>产品列表</h1>
+      <!--<h3>You will get lot of features with flathost</h3>-->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 features"><img src="images/Splunk-Enterprise-ncircle.svg" alt="icon" class="img-icon">
+      <h4>Splunk Enterprise</h4>
+      <p>Splunk Enterprise是从机器数据中汇总、分析和获取答案的最佳捷径。数据分析以询问一切事情。</p>
+    </div>
+    <div class="col-sm-6 features"><img src="images/Splunk-ITSI.svg" alt="icon" class="img-icon">
+      <h4>Splunk IT 服务智能 (ITSI)</h4>
+      <p>使用针对IT环境所量身定制的威胁监控和数据分析解决方案，简化操作，确定事件处理的优先级，并使 IT 与业务保持一致。</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 features"><img src="images/Splunk Enterprise Security.svg" alt="icon" class="img-icon">
+      <h4>Splunk Enterprise Security</h4>
+      <p>通过可操作的情报获得对安全状况的端到端可视性监控，帮助您确定事件处理优先级顺序并快速采取行动。</p>
+    </div>
+    <div class="col-sm-6 features"><img src="images/Splunk UBA.svg" alt="icon" class="img-icon">
+      <h4>Splunk 用户行为分析</h4>
+      <p>通过机器学习提供支持的用户和实体行为数据进行分析，防范内部威胁。</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 features"><img src="images/Reduce Cybersecurity Threats.svg" alt="icon" class="img-icon">
+      <h4>Phantom</h4>
+      <p>使用 Phantom 安全运营平台，您可以充分利用平台现有的资源进行企业运营环境的安全监控。</p>
+    </div>
+  </div>
+
+</div>
+<!--Container Closed-->
+
+<!--============== Domain Search ==============-->
+
+<!--<div class="domain">-->
+<!--<div class="container">-->
+<!--<div class="row PageHead">-->
+<!--<div class="col-md-12">-->
+<!--<h1>Search Domain</h1>-->
+<!--<h3>Enter the domain name to register or transfer</h3>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="row">-->
+<!--<div class="col-md-8 col-md-offset-2">-->
+<!--<form action="https://yourwebsite.com/whmcs/domainchecker.php" method="post">-->
+<!--<input type="hidden" name="direct" value="true" />-->
+<!--<div class="row">-->
+<!--<div class="col-sm-12 form-group">-->
+<!--<div class="input-group">-->
+<!--<input class="form-control" type="text" name="domain" size="20" placeholder="your domain name" />-->
+<!--<span class="input-group-btn">-->
+<!--<select class="btn btn-default" name="ext">-->
+<!--<option selected>.com</option>-->
+<!--<option>.net</option>-->
+<!--<option>.org</option>-->
+<!--<option>.biz</option>-->
+<!--<option>.com.au</option>-->
+<!--<option>.net.au</option>-->
+<!--<option>.info</option>-->
+<!--<option>.asia</option>-->
+<!--<option>.co.nz</option>-->
+<!--<option>.org.au</option>-->
+<!--</select>-->
+<!--</span> </div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="submitbtn">-->
+<!--<input type="submit" class="btn btn-success btn-lg" value="Search Domain" />-->
+<!--</div>-->
+<!--</form>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--============== Contact us ==============-->
+
+<div class="container" id="contact">
+  <div class="row PageHead">
+    <div class="col-md-12">
+      <h1>联系我们</h1>
+      <br>
+    </div>
+  </div>
+  <div class="row ContactUs">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-sm-offset-3">
+          <h4> 环润 </h4>
+          <address>
+            地址：上海市徐汇区蒲汇塘路11号博大商务楼1007室 <br>
+            邮编：200030 <br>
+            邮箱：sales@linqdata.cn <br>
+            电话：+86-21-64370385 <br>
+            <br>
+          </address>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <!-- https://lbs.amap.com/console/show/card -->
+      <iframe width='560' height='440' frameborder='0'
+              scrolling='no' marginheight='0' marginwidth='0' src='https://f.amap.com/5fW2z_09E792L'></iframe>
+    </div>
+  </div>
+</div>
+<!--============== Footer ==============-->
+
+<div class="footer">
+  <div class="container">
+    <div class="row copyright">
+      <p>&copy; 版权所有 2019. 环润</p>
+    </div>
+  </div>
+</div>
+
+<!--===Back to top======-->
+<a href="#" class="scrollup">Scroll</a>
+
+<!--==============QUERY LIBRARY=================-->
+
+<script src="js/jquery.easing.1.2.js"></script>
+
+<!--==============BOOTSTRAP JS=================-->
+
+<script src="js/bootstrap.min.js"></script>
+
+<!--==========ONE PAGE SCROLLING SCRIPTS STARTS===============-->
+
+<script>
+  $(function () {
+    $('.nav li a').bind('click', function (event) {
+      var $anchor2 = $(this).parent();
+      var $anchor = $(this);
+      $('.nav  li').removeClass('active');
+      $anchor2.addClass('active');
+
+      $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top - 80
+      }, 1500, 'easeInOutExpo');
+      event.preventDefault();
+    });
+  });
+</script>
+
+<!--=============ONE PAGE SCROLLING SCRIPTS ENDS============-->
+
+<!--=============BACK TO TOP STARTS============-->
+
+<script>
+  $(document).ready(function () {
+
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 800) {
+        $('.scrollup').fadeIn();
+      } else {
+        $('.scrollup').fadeOut();
+      }
+    });
+
+    $('.scrollup').click(function () {
+      $("html, body").animate({scrollTop: 0}, 600);
+      return false;
+    });
+
+  });
+</script>
+
+<!--=============BACK TO TOP ENDS============-->
+
+</body>
+</html>
